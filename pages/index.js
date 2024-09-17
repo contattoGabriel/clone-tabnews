@@ -2,7 +2,7 @@ function Home() {
   return (
     <div>
       <h1>Em breve, um novo acervo de documentação Empresarial</h1>
-      <img src="/assets/logo.jpeg" alt="Logo DocNews" />
+      <img src="/public/logo.jpeg" alt="Logo DocNews" />
     </div>
   );
 }
