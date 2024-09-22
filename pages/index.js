@@ -1,10 +1,4 @@
 function Home() {
-  return (
-    <div>
-      <h1>Em breve, um novo acervo de documentação Empresarial</h1>
-      <img src="/logo.jpeg" alt="Logo DocNews"/>
-    </div>
-  );
+  return <h1>Sabrine, eu amo você. Se você me ama, da uma risadinha!🧐</h1>;
 }
-
 export default Home;
