@@ -61,12 +61,56 @@ function Home() {
         <h2>Experiência Profissional</h2>
         <ul>
           <li>
-            <strong>SIRIUS GROUP</strong> - Desenvolvedor Full Stack Junior
-            (maio 2024 – agosto 2024)
+            <strong>SIRIUS GROUP</strong> - Desenvolvedor Full Stack Júnior
+            (Maio 2024 - Agosto 2024)
+            <ul>
+              <li>
+                Desenvolvi e mantive aplicações web utilizando Angular com
+                TypeScript, integradas a bancos de dados MySQL.
+              </li>
+              <li>
+                Colaborei na análise e documentação de requisitos técnicos e
+                funcionais para novos projetos e funcionalidades.
+              </li>
+              <li>
+                Participei do ciclo completo de desenvolvimento de software,
+                incluindo construção de interfaces responsivas, implementação de
+                lógica de negócios e integração com APIs RESTful.
+              </li>
+              <li>
+                Realizei otimizações em consultas SQL, garantindo melhor
+                desempenho em aplicações existentes.
+              </li>
+              <li>
+                Trabalhei em equipe utilizando metodologias ágeis, como Scrum,
+                para entrega contínua de valor.
+              </li>
+            </ul>
           </li>
           <li>
             <strong>LICITAR DIGITAL</strong> - Assistente de Tecnologia I
-            (setembro 2024 – novembro 2024)
+            (Setembro 2024 - Novembro 2024)
+            <ul>
+              <li>
+                Desenvolvi habilidades avançadas em MySQL, atuando na resolução
+                de tickets e na análise de problemas relacionados à plataforma
+                da empresa.
+              </li>
+              <li>
+                Identifiquei e solucionei empecilhos técnicos, contribuindo para
+                a melhoria da experiência dos usuários e para a estabilidade do
+                sistema.
+              </li>
+              <li>
+                Aprofundei conhecimentos em NestJS, auxiliando na manutenção e
+                desenvolvimento de serviços backend escaláveis.
+              </li>
+              <li>
+                Colaborei com equipes multidisciplinares para entender as
+                necessidades do cliente e implementar soluções alinhadas aos
+                objetivos do negócio.
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
