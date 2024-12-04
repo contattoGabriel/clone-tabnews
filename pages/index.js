@@ -1,157 +1,121 @@
 function Home() {
   return (
-    <div
-      style={{
-        fontFamily: "Arial, sans-serif",
-        lineHeight: "1.6",
-        margin: "20px",
-      }}
-    >
-      <header style={{ marginBottom: "20px" }}>
-        <h1>Gabriel Vitor Borges de Souza</h1>
-        <p>
-          Sete Lagoas, MG | <a href="tel:+5531999407159">(31) 99940-7159</a> |{" "}
-          <a href="mailto:contattogabriel1@gmail.com">
-            contattogabriel1@gmail.com
-          </a>
-        </p>
-        <p>
-          <a
-            href="https://www.linkedin.com/in/gabrielborgesdev/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>{" "}
-          |{" "}
-          <a
-            href="https://github.com/contattoGabriel"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </p>
-      </header>
-
-      <section>
-        <h2>Sobre Mim</h2>
-        <p>
-          Sou estudante de Sistemas de Informação na PUC-MG e iniciei minha
-          trajetória na programação em agosto de 2023. Conquistei minha primeira
-          oportunidade na área em maio de 2024 e, desde então, venho aprimorando
-          minhas habilidades diariamente, resolvendo desafios do cotidiano.
-          Atualmente, estou em busca de novas oportunidades para continuar meu
-          desenvolvimento profissional e contribuir com minhas competências.
-        </p>
-      </section>
-
-      <section>
-        <h2>Habilidades</h2>
-        <ul>
-          <li>TypeScript</li>
-          <li>Node.js</li>
-          <li>SQL</li>
-          <li>Nest.JS</li>
-          <li>React</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Experiência Profissional</h2>
-        <ul>
-          <li>
-            <strong>SIRIUS GROUP</strong> - Desenvolvedor Full Stack Júnior
-            (Maio 2024 - Agosto 2024)
+    <>
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gabriel Portfólio</title>
+        <link href="assets/img/favicon-32x32.png" rel="icon" />
+        <link href="assets/css/main.css" rel="stylesheet" />
+        {/* Inclua outras dependências se necessário */}
+      </head>
+      <body className="index-page">
+        <header
+          id="header"
+          className="header d-flex flex-column justify-content-center"
+        >
+          <i className="header-toggle d-xl-none bi bi-list"></i>
+          <nav id="navmenu" className="navmenu">
             <ul>
               <li>
-                Desenvolvi e mantive aplicações web utilizando Angular com
-                TypeScript, integradas a bancos de dados MySQL.
+                <a href="#hero" className="active">
+                  <i className="bi bi-house navicon"></i>
+                  <span>Home</span>
+                </a>
               </li>
               <li>
-                Colaborei na análise e documentação de requisitos técnicos e
-                funcionais para novos projetos e funcionalidades.
+                <a href="#Sobre">
+                  <i className="bi bi-person navicon"></i>
+                  <span>Sobre</span>
+                </a>
               </li>
               <li>
-                Participei do ciclo completo de desenvolvimento de software,
-                incluindo construção de interfaces responsivas, implementação de
-                lógica de negócios e integração com APIs RESTful.
+                <a href="#Curriculo">
+                  <i className="bi bi-file-earmark-text navicon"></i>
+                  <span>Curriculo</span>
+                </a>
               </li>
               <li>
-                Realizei otimizações em consultas SQL, garantindo melhor
-                desempenho em aplicações existentes.
-              </li>
-              <li>
-                Trabalhei em equipe utilizando metodologias ágeis, como Scrum,
-                para entrega contínua de valor.
+                <a href="#Contato">
+                  <i className="bi bi-envelope navicon"></i>
+                  <span>Contato</span>
+                </a>
               </li>
             </ul>
-          </li>
-          <li>
-            <strong>LICITAR DIGITAL</strong> - Assistente de Tecnologia I
-            (Setembro 2024 - Novembro 2024)
-            <ul>
-              <li>
-                Desenvolvi habilidades avançadas em MySQL, atuando na resolução
-                de tickets e na análise de problemas relacionados à plataforma
-                da empresa.
-              </li>
-              <li>
-                Identifiquei e solucionei empecilhos técnicos, contribuindo para
-                a melhoria da experiência dos usuários e para a estabilidade do
-                sistema.
-              </li>
-              <li>
-                Aprofundei conhecimentos em NestJS, auxiliando na manutenção e
-                desenvolvimento de serviços backend escaláveis.
-              </li>
-              <li>
-                Colaborei com equipes multidisciplinares para entender as
-                necessidades do cliente e implementar soluções alinhadas aos
-                objetivos do negócio.
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Projetos</h2>
-        <ul>
-          <li>
-            <strong>Tab-news</strong> | TypeScript, Node.js, React, Next.js,
-            TailwindCSS
-            <p>
-              Projeto desenvolvido como parte do curso.dev do Filipe Deschamps,
-              focado em aprendizado prático de desenvolvimento web full stack.
-              Desenvolvimento de uma aplicação completa utilizando TypeScript,
-              Node.js e React, com integração à API do Next.js para renderização
-              server-side e geração de páginas estáticas. Aplicação de práticas
-              de desenvolvimento ágil, incluindo versionamento de código e
-              revisão de pull requests.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Certificados</h2>
-        <ul>
-          <li>Curso.Dev (em andamento)</li>
-          <li>Cybersecurity Essentials - Cisco</li>
-          <li>Hacker Ético (BSEC) - Instituto Brasileiro de Cibersegurança</li>
-          <li>Banco de Dados (SQL) - Ada Tech</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Educação e Idiomas</h2>
-        <ul>
-          <li>Cursando Sistemas de Informação - PUC-MG (2023 - 2027)</li>
-          <li>Inglês Intermediário</li>
-        </ul>
-      </section>
-    </div>
+          </nav>
+        </header>
+        <main className="main">
+          <section id="hero" className="hero section light-background">
+            <img src="assets/img/gabriel-hero.jpg" alt="" />
+            <div className="container" data-aos="zoom-out">
+              <div className="row justify-content-center">
+                <div className="col-lg-9">
+                  <h2>Gabriel Borges</h2>
+                  <p>
+                    I'm a{" "}
+                    <span className="typed" data-typed-items="Developer,">
+                      Developer
+                    </span>
+                  </p>
+                  <div className="social-links">
+                    <a
+                      href="https://github.com/contattoGabriel"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bi bi-github"></i>
+                    </a>
+                    <a
+                      href="https://www.instagram.com/gabriel.borges8/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bi bi-instagram"></i>
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/gabrielborgesdev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bi bi-linkedin"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          {/* Outras seções seguem aqui */}
+        </main>
+        <footer className="footer position-relative light-background">
+          <div className="container">
+            <h3 className="sitename">Gabriel Borges</h3>
+            <div className="social-links d-flex justify-content-center">
+              <a
+                href="https://github.com/contattoGabriel"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/gabriel.borges8/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-instagram"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/gabrielborgesdev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </>
   );
 }
 
